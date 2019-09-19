@@ -1,0 +1,27 @@
+/* Progress Bar */
+.sircr-realogy-progress-bar {
+	border: 1px solid #ccc;
+	background: #fff;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 15px;
+	margin: 20px 0;
+	display: none;
+}
+.sircr-realogy-progress-bar .sircr-realogy-progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 30px;
+	width: 0%;
+	background: #0085ba;
+}
+.sircr-realogy-log {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 0 15px;
+	overflow-y: scroll;
+	height: 300px;
+	display: none;
+}
